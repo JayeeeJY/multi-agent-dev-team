@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="428" viewBox="0 0 1000 428" role="img" aria-labelledby="title desc">
+  <title id="title">Awesome Stock · Nine tasks, three implementers</title>
+  <desc id="desc">April 25 to 26, 2026. Codex completed tasks 001, 003, 005 and 008. Gemini completed tasks 006, 007 and 009. Claude took over tasks 002 and 004.</desc>
+  <rect width="1000" height="428" rx="22" fill="#0d1626"/>
+  <g font-family="system-ui, -apple-system, 'PingFang SC', 'Noto Sans CJK SC', sans-serif" fill="#eef5fa">
+    <text x="38" y="53" font-size="31" font-weight="700">Awesome Stock · Nine tasks, three implementers</text>
+    <text x="38" y="86" font-size="18" fill="#c5d9ea">2026.04.25–26 · Portfolio module · 投资组合模块</text>
+
+    <g stroke-width="1.5">
+      <rect x="38" y="115" width="296" height="141" rx="14" fill="#172942" stroke="#79b8ee"/>
+      <rect x="352" y="115" width="296" height="141" rx="14" fill="#172b36" stroke="#78d2c1"/>
+      <rect x="666" y="115" width="296" height="141" rx="14" fill="#35291d" stroke="#e9b96f"/>
+    </g>
+    <g font-size="25" font-weight="700">
+      <text x="58" y="155">Codex</text>
+      <text x="372" y="155">Gemini</text>
+      <text x="686" y="155">Claude</text>
+    </g>
+    <g text-anchor="end" font-size="42" font-weight="700">
+      <text x="310" y="169" fill="#a4d3ff">4</text>
+      <text x="624" y="169" fill="#b0ebdc">3</text>
+      <text x="938" y="169" fill="#ffe0ad">2</text>
+    </g>
+    <g font-size="18">
+      <text x="58" y="199" fill="#a4d3ff">Backend · 后端</text>
+      <text x="372" y="199" fill="#b0ebdc">Frontend · 前端</text>
+      <text x="686" y="199" fill="#ffe0ad">Frontend takeover · 接手前端</text>
+      <text x="58" y="228" fill="#c5d9ea">Ledger, quotes, APIs, data I/O</text>
+      <text x="372" y="228" fill="#c5d9ea">Diagnostics, scenarios, cards</text>
+      <text x="686" y="228" fill="#f0cf9c">Accounts, portfolio overview</text>
+    </g>
+
+    <text x="38" y="299" font-size="20" font-weight="650">Actual implementer by task · 按任务列出实际执行者</text>
+    <g stroke-width="1.5">
+      <g fill="#172942" stroke="#79b8ee">
+        <rect x="38" y="323" width="92" height="59" rx="9"/>
+        <rect x="246" y="323" width="92" height="59" rx="9"/>
+        <rect x="454" y="323" width="92" height="59" rx="9"/>
+        <rect x="766" y="323" width="92" height="59" rx="9"/>
+      </g>
+      <g fill="#172b36" stroke="#78d2c1">
+        <rect x="558" y="323" width="92" height="59" rx="9"/>
+        <rect x="662" y="323" width="92" height="59" rx="9"/>
+        <rect x="870" y="323" width="92" height="59" rx="9"/>
+      </g>
+      <g fill="#35291d" stroke="#e9b96f">
+        <rect x="142" y="323" width="92" height="59" rx="9"/>
+        <rect x="350" y="323" width="92" height="59" rx="9"/>
+      </g>
+    </g>
+    <g text-anchor="middle" font-size="17" font-weight="650">
+      <text x="84" y="347" fill="#a4d3ff">001</text>
+      <text x="188" y="347" fill="#ffe0ad">002</text>
+      <text x="292" y="347" fill="#a4d3ff">003</text>
+      <text x="396" y="347" fill="#ffe0ad">004</text>
+      <text x="500" y="347" fill="#a4d3ff">005</text>
+      <text x="604" y="347" fill="#b0ebdc">006</text>
+      <text x="708" y="347" fill="#b0ebdc">007</text>
+      <text x="812" y="347" fill="#a4d3ff">008</text>
+      <text x="916" y="347" fill="#b0ebdc">009</text>
+    </g>
+    <g text-anchor="middle" font-size="14" fill="#e2edf5">
+      <text x="84" y="369">Codex</text>
+      <text x="188" y="369">Claude</text>
+      <text x="292" y="369">Codex</text>
+      <text x="396" y="369">Claude</text>
+      <text x="500" y="369">Codex</text>
+      <text x="604" y="369">Gemini</text>
+      <text x="708" y="369">Gemini</text>
+      <text x="812" y="369">Codex</text>
+      <text x="916" y="369">Gemini</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="443" viewBox="0 0 1000 443" role="img" aria-labelledby="title desc">
+  <title id="title">A structured CLI workflow</title>
+  <desc id="desc">A Claude lead assigns backend work to Codex and frontend work to Antigravity. Each worker has a separate Git worktree. Their CLI events feed a task record. The lead uses the diff and tests for acceptance. tmux can display progress.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 10 5 0 10Z" fill="#7fa7c6"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="443" rx="22" fill="#0d1626"/>
+  <g font-family="system-ui, -apple-system, sans-serif" fill="#eef5fa">
+    <text x="38" y="52" font-size="31" font-weight="700">A structured CLI workflow</text>
+    <text x="38" y="84" font-size="18" fill="#c5d9ea">Proposed runtime for the same three roles</text>
+    <g fill="none" stroke="#7fa7c6" stroke-width="2.5" marker-end="url(#arrow)">
+      <path d="M295 208H320V155H344"/>
+      <path d="M295 208H320V273H344"/>
+      <path d="M656 155H680V208H704"/>
+      <path d="M831 275V331"/>
+    </g>
+    <path d="M656 273H680V208" fill="none" stroke="#7fa7c6" stroke-width="2.5"/>
+    <g stroke-width="1.5">
+      <rect x="38" y="144" width="257" height="131" rx="13" fill="#172942" stroke="#79b8ee"/>
+      <rect x="347" y="110" width="309" height="91" rx="13" fill="#172b36" stroke="#78d2c1"/>
+      <rect x="347" y="228" width="309" height="91" rx="13" fill="#172b36" stroke="#78d2c1"/>
+      <rect x="707" y="144" width="255" height="131" rx="13" fill="#172942" stroke="#79b8ee"/>
+      <rect x="707" y="335" width="255" height="71" rx="13" fill="#173b37" stroke="#78d2c1"/>
+    </g>
+    <g font-size="23" font-weight="700">
+      <text x="58" y="180">Claude Code</text>
+      <text x="367" y="145">Codex · Backend</text>
+      <text x="367" y="263">Antigravity · Frontend</text>
+      <text x="727" y="180">Task record</text>
+      <text x="727" y="368" fill="#bdf2df">Claude acceptance</text>
+    </g>
+    <g font-size="18" fill="#c5d9ea">
+      <text x="58" y="212">Contract + task scope</text>
+      <text x="58" y="239">Choose where to delegate</text>
+      <text x="367" y="176">Git worktree · JSONL events</text>
+      <text x="367" y="294">Git worktree · JSON events</text>
+      <text x="727" y="212">Attempt · status · diff</text>
+      <text x="727" y="239">Timeout or usable result</text>
+      <text x="727" y="393">Diff + integration tests</text>
+    </g>
+    <rect x="38" y="353" width="618" height="52" rx="12" fill="#131f32" stroke="#435c76" stroke-dasharray="5 4"/>
+    <text x="58" y="385" font-size="19" fill="#c5d9ea">Optional monitor · tmux can display events and test output</text>
+  </g>
+</svg>

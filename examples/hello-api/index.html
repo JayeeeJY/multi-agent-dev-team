@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hello API · Multi-Agent Dev Team</title>
+<style>
+  :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+  body { max-width: 34rem; margin: 14vh auto 0; padding: 1.5rem; line-height: 1.6; }
+  h1 { margin: 0 0 .5rem; line-height: 1.15; }
+  button { padding: .6rem 1rem; font: inherit; cursor: pointer; }
+  pre { font-size: .95rem; white-space: pre-wrap; overflow-wrap: anywhere; }
+</style>
+<main>
+  <h1>Hello API</h1>
+  <p>Fetch a message and timestamp from the local endpoint.</p>
+  <button type="button" id="fetch-message">Fetch message</button>
+  <pre id="result" role="status"></pre>
+</main>
+<script>
+  const button = document.querySelector('#fetch-message');
+  const result = document.querySelector('#result');
+
+  button.addEventListener('click', async () => {
+    button.disabled = true;
+    result.textContent = 'Loading…';
+    try {
+      const response = await fetch('/api/hello');
+      if (!response.ok) throw new Error(`Request returned HTTP ${response.status}`);
+      const { message, timestamp } = await response.json();
+      result.textContent = `${message}\n${timestamp}`;
+    } catch (error) {
+      result.textContent = `Could not fetch the message. ${error.message}`;
+    } finally {
+      button.disabled = false;
+    }
+  });
+</script>
+</html>
